@@ -73,7 +73,7 @@
                 <p class="font-normal">{{ user.id }}</p>
                 <p class="font-normal">{{ user.username }}</p>
               </div>
-              <button class="text-gray-700 hover:text-black">
+              <button @click="openPopup" class="text-gray-700 hover:text-black">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
